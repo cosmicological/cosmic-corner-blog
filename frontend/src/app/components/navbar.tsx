@@ -3,9 +3,14 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-900 p-2">
+    <nav className="bg-purple-950 p-2">
       <ul className="flex space-x-4 justify-left items-center">
-        <Image src="/logo.png" alt="Logo" width={50} height={50} />
+        <Image
+          src="https://placehold.co/60x40/jpg"
+          alt="Logo"
+          width={60}
+          height={40}
+        />
         <li>
           <Link href="/" className="text-white hover:underline">
             Home
