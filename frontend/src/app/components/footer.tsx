@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 pt-[7px] pb-[7px] pr-[15px] pl-[15px]">
+    <footer className="absolute bottom-0 w-full bg-gray-900 pt-[7px] pb-[7px] pr-[15px] pl-[15px]">
       <div className="flex flex-row justify-between">
         <p>Author: Gabriel Morehead</p>
         <p>
